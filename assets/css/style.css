@@ -1,48 +1,126 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
+/* Tophead Section Start */
+.tophead{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 0px 100px;
+    background: #0C474A;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+} 
+.tophead ul li{
+    display: inline-block;
+    margin: 0px 8px;
+}
+.tophead ul li a{
+    color: #b2f363;
+}
+/* Tophead Section End */
+/* Header Section Start */
 header{
     width: 100%;
-    height: 100px;
-    background: red;
-    padding-left:10px;
+    height: 80px;
+    color: #fff;
+    padding: 0px 100px;
+    background: #308e93;
+    line-height: 80px;
 }
 header h1{
-    padding-top:20px;
+    font-size: 50px;
+    margin-right: 20px;
 }
-section{
-    width:100%;
-
+header h1, header h3{
+    display: inline-block;
 }
-section aside{
-    width:15%;
-    float:left;
-    background:#45da45;
-    padding-left: 20px;
+/* Header Section End */
+/* Nav Section Start */
+nav{
+    background: #71cace;
+    width: 100%;
+    height: 40px;
     color: #fff;
+    padding: 0px 100px;
+    line-height: 40pxpx;
 }
-aside h3{
-    margin:10px 0px;
-
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 60px;
+    padding-top: 10px;
+}
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 650;
+}
+nav ul li a:hover{
+    font-size: 105%;
+    transition: 0.3s linear;
+    color: #c74343;
+}
+/* Nav Section End */
+/* Content Section Start */
+section{
+    width: 100%;
+    padding: 0px 100px;
+}
+main{
+    width: 80%;
+    text-align: justify;
+    padding-right: 30px;
+}
+main p{
+    padding-top: 7px;
+}
+.para{
+    border-left: 3px solid green;
+    margin-left: 40px;
+    padding: 10px;
+}
+.list{
+    margin-left: 50px;
+}
+aside{
+    width: 20%;
+    float: right;
+    padding: 20px 15px;
+    background: #d8d3d3;
 }
 aside ul li{
+    padding: 0px 0px 0px 20px;
     list-style: none;
-    margin-top: 10px;
-    border-bottom: 2px solid #fff;
+    font-weight: 600;
 }
-section main{
-    width:85%;
-    float:left;
-    text-align: justify;
-    padding:30px 20px;
+aside ul li li{
+    padding-left: 20px;
+    font-weight: normal;
 }
-footer{
+/* Content Section End */
+/* Footer Section Start */
+   footer{
     width: 100%;
-    height: 80px;
-    background: #782fd8;
-    color:#fff;
-    text-align: center;
-    
-}
+    height: 100px;
+    display: flex;
+    padding: 0px 100px;
+    background: #0C474A;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   footer ul li{
+    list-style: none;
+   }
+   footer h3{
+    color: #90d990;
+   }
+   .copy{
+    padding-bottom: 30px;
+   }
+/* Footer Section End */
